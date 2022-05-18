@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    
+
+}
+
+.head{
+    height: 50px;
+    color: #FF8C00;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    margin-left: 32%;
+    font-weight: 50px;
+}
+
+.head > i {
+    padding-top: 3px;
+    font-size: 30px;
+    padding-bottom: 2px;
+}
+
+h2 {
+    margin-left: 9px;
+    font-size: 30px;
+}
+
+body{
+    background-image: url('images/janko-ferlic-sfL_QOnmy00-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: rgb(0,0,0,0,6);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box
+{
+    background-color: #ff8f05;
+    width: 32%;
+    height: 420px;
+    margin-top: 70px;
+    margin-left: 450px;
+    border-radius: 2%;
+    box-shadow: 0 0 20px 5px black;
+    position: relative;
+
+}
+
+.title
+{
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 10px;
+  height: 38px;
+  padding-top: 7px; 
+  margin-left: 12px;
+
+}
+
+.line
+{
+  background:linear-gradient(135deg, #ff8c00, #000);
+  width: 50px;
+  height: 5px;
+  padding-left: 10px;
+  margin-left: 22px;
+  border-radius: 1px;
+}
+
+.entire
+{
+  text-decoration: none;
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 70%;
+}
+
+.left
+{
+  width: 48%;
+  height: 50px;
+  background-color: #231f20;
+  float: left;
+  margin-top: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.right
+{
+  width: 48%;
+  height: 50px;
+  background-color: #231f20;
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;;
+}
+
+.right a, .left a 
+{
+  text-decoration: none;
+  position: relative;
+  height: 50%;
+  margin-top: 10px;
+  color: #ff8c00;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  
+}
+
+.right:hover,.left:hover,.right a:hover,.left a:hover
+{
+  cursor: pointer;
+}
+
+
+
+
+.booklist{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.backgroundfont{
+    font-size: 125px;
+    color: gray;
+    margin-bottom: 100px;
+    width: 60%;
+    height: 100%;
+
+}
+
+.socialmedia
+{
+    width: 2.5%;
+    align-items: flex-end;
+    margin-left: 1290px;
+    margin-top: 260px;
+    font-size: 30px;
+}
+
+.fa-facebook
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa-facebook
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa-instagram
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa-twitter
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa-youtube
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa-linkedin
+{
+  background-color: black;
+  padding: 7px;
+  color: orange;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  size: 90px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    padding: 8px;
+}

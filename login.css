@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url('images/janko-ferlic-sfL_QOnmy00-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+}
+
+.form-box {
+    width: 380px;
+    height: 400px;
+    position: relative;
+    margin: 6% auto;
+    background-color: #FF8C00;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.heading{
+    width: 220px;
+    margin: 6% ;
+    font-size: 30;
+    position: relative;
+}
+
+.line 
+{
+    content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #FF8C00, #000);
+}
+
+.font {
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    /* margin: 10px 0 0 0; */
+    margin-top: 10px;
+}
+
+.input-group {
+    top: 80px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin-left: 12px;
+}
+
+.input-field {
+  height: 45px;
+  width: 95%;
+  margin-left: 5px;
+  outline: none;
+  margin-bottom: 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  border-bottom: 2.5px solid #ccc;
+  transform: #000;
+}
+
+.input-field:focus,
+.input-field:valid {
+    border-color: #000;
+}
+.input-field:hover {
+    border-bottom: #000;
+}
+
+.check-box {
+    height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background: #d9d9d9;
+  color: #777;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    background: linear-gradient(135deg, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+}
+
+.redirect {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.submit-btn:hover {
+    background:linear-gradient(-135deg, #ff105f, #ffad06) ;
+}
